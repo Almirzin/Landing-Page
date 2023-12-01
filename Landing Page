@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cabelos Humanos</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+section {
+    padding: 40px;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Realeza Cabelos</h1>
+        <p>Trabalhamos com cabelos 100% humanos e de alto padrão.</p>
+    </header>
+
+    <section id="features">
+        <div class="feature">
+            <h2>Trabalhamos com diversas variedades de cabelo</h2>
+            <p>Estamos com ofertas para você passar o natal de cabelo novo.</p>
+        </div>
+        <div class="feature">
+            <h2>Entrega rápida, frete que cabe no seu bolso</h2>
+            <p>Entregamos seu pedido em até 72 horas.</p>
+        </div>
+        <div class="feature">
+            <h2>Corre que está acabando</h2>
+            <p>Clique no botão abaixo e aproveite as promoções por tempo limitado.</p>
+            <button>Compre Agora</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Estamos no mercado desde 2020 durante a pandemia, e já nos enviamos ao tornamos referencia de qualidade, e enviamos ao Brasil todo.</p>
+    </section><br><br>
+
+    <footer>
+        <p>&copy; 2023 Realeza Cabelos. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
